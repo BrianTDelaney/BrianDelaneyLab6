@@ -26,7 +26,7 @@ def encode(number):
         encoded_number = encoded_number + digit
     return encoded_number
 # Function goes digit by digit converting the digit to an integer, adding 3 to it, converting it to a string,
-# and then "appending" it to the encoded string.
+# and then concatenates it to the encoded string.
 
 
 if __name__ == '__main__':
