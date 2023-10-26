@@ -28,6 +28,13 @@ def encode(number):
 # Function goes digit by digit converting the digit to an integer, adding 3 to it, converting it to a string,
 # and then concatenates it to the encoded string.
 
+def decode(number):
+    decoded_number = ""
+    for digit in number:
+        digit = str(int(digit) - 3)
+        decoded_number = decoded_number + digit
+    return str(decoded_number)
+
 
 if __name__ == '__main__':
     main()
